@@ -1,0 +1,55 @@
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop() {
+  // C: -.-.
+  
+  // Dash
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(600);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(200);
+
+  // Dot
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(200);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(200);
+
+  // Dash
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(600);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(200);
+
+  // Dot
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(200);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(600);
+
+  // A: .-
+  
+  // Dot
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(200);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(200);
+
+  // Dash
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(600);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(600);
+
+
+  // T: -
+  
+  // Dash
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(600);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(2000);
+
+}
